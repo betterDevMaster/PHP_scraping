@@ -1,0 +1,94 @@
+
+/*New Styles Included 22/06/2020*/
+@font-face {
+    font-family: 'FiraSans-Regular';
+    src: url('../fonts/FiraSans-Regular.eot');
+    src: url('../fonts/FiraSans-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/FiraSans-Regular.ttf') format('truetype'),
+         url('../fonts/FiraSans-Regular.svg#tex_gyre_adventorbold') format('svg');
+		 font-weight: normal;
+    font-style: normal;
+}
+
+table thead tr th {
+        width: 20%;
+}
+
+table tbody tr td {
+        width: 20%;
+}
+
+.newtable   {
+color: #064161;
+text-align:left;
+font-family: 'FiraSans-Regular' !important;
+font-size: 16px;
+
+}
+
+h3.newtitletr  {
+color: #6BC9D0;
+padding: 1% 0%;
+margin: 2% 0%; text-align:left;
+font-family: 'FiraSans-Regular' !important;
+
+}
+
+
+
+.slim-btn2  {
+   background-color: #666666;
+    border-bottom: 1px solid #98d7dd;
+    transition: all 0.05s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+    font-size: 1.2247em;
+    padding-top: 8px;
+    padding-bottom: 8px; color:#FFFFFF;
+	font-family: 'FiraSans-Regular' !important; 
+}
+
+.slim-btn2:hover,
+.slim-btn2:focus,
+.slim-btn2:active {
+    background-color: #98d7dd;
+    border-bottom: 1px solid #064160;
+    color: #000;
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+}
+
+
+.form-controltable {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-image: none;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	font-family: 'FiraSans-Regular' !important;
+    background: #f5f5f5;
+    border: none;
+    font-weight: 500;
+    height: 48px;
+    padding: 14px 13px;
+}
+
+
+.table > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 1px solid #6bc9da;
+}
+
+.newtablebg { border:#6bc9da 1px solid;}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #6bc9da;
+}
+
+/*end*/
